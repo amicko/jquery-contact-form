@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
+</head>
+<body>
+	<div >
+		<form id="all">
+			<h1>Contact Us</h1>
+			<label>Name</label>
+			<input type="text" class="nameBox">
+			<div class="warningName">Name cannot be left empty</div>
+			<label>Email</label>
+			<input type="text" id="emailBox">
+			<div class="warningEmail">Email must contain '@'</div>
+			<label>Website</label>
+			<input type="text" id="websiteBox">
+			<div class="warningWebsite">Website must start with https://</div>
+			<label>Message</label>
+			<input type="textbox" class="messageBox">
+			<div class="warningMessage">Message cannot be left empty</div>
+			<button id="button">
+				<span>Submit</span>
+			</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>

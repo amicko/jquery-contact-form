@@ -1,0 +1,62 @@
+body {
+	background-color: #1E2326;
+
+	form {
+		margin: 3em auto 0 auto;
+		background-color: #ffffff;
+		width: 25.125em;
+		height: 34.25em;
+		padding: 1.5em;
+		box-sizing: border-box;
+	
+		label{
+			display: block;
+		}
+
+		input {
+			display: block;
+			width: 100%;
+			border: 1px solid #CCCCCC;
+			border-left: 3px solid #333333;
+			line-height: 33px;
+		}
+
+		button {
+			background-color: #1D1E2E;
+			height: 7em;
+			width: 16em;
+
+			span {
+				color:#ffffff;
+				font-size: 16px;
+			}
+		}
+
+		.warningName {
+			color: #CC0B06;
+			display: none;
+		}
+		.warningEmail {
+			color: #CC0B06;
+			display: none;
+		}
+		.warningWebsite {
+			color: #CC0B06;
+			display: none;
+
+		}
+		.warningMessage {
+			color: #CC0B06;
+			display: none;
+
+		}
+	}
+
+	#newBox {
+		background-color: #fffff;
+		height: 3em;
+		width: 95%;
+	}
+
+}
+

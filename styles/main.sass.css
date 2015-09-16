@@ -1,0 +1,36 @@
+body {
+  background-color: #1E2326; }
+  body form {
+    margin: 3em auto 0 auto;
+    background-color: #ffffff;
+    width: 25.125em;
+    height: 34.25em;
+    padding: 1.5em;
+    box-sizing: border-box; }
+    body form label {
+      display: block; }
+    body form input {
+      display: block;
+      width: 100%;
+      border: 1px solid #CCCCCC;
+      border-left: 3px solid #333333;
+      line-height: 33px; }
+    body form button {
+      background-color: #1D1E2E;
+      height: 7em;
+      width: 16em; }
+      body form button span {
+        color: #ffffff;
+        font-size: 16px; }
+    body form .warningName {
+      color: #CC0B06;
+      display: none; }
+    body form .warningEmail {
+      color: #CC0B06;
+      display: none; }
+    body form .warningWebsite {
+      color: #CC0B06;
+      display: none; }
+    body form .warningMessage {
+      color: #CC0B06;
+      display: none; }
